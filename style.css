@@ -54,34 +54,27 @@ a:hover{
 .header-info{
     background-color:rgb(255, 255, 255,0.6) ;
     width: 100%;
-    height: 10vh;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 #header-button{
-    padding-right: 20px;
-    position: absolute;
-    right: 30px;
-    bottom: 20px;
-    font-size:13px
-    text-align: center;
-    border: 0px;
+    margin: 10px 10px;
 }
 
-#header-text{
-    padding-right: 20px;
-    font-size: 18px;
-    position: absolute;
-    left: 30px;
-    bottom: 8px;
+#header-button input{
+    font-size:13px;
+    padding: 12px;
+    background-color:rgb(60, 199, 199);
+    color: #fff;
 }
 
 
 #header-button input:hover{
-    background-color: rgb(60, 199, 199);
-    font-size: 20px;
-    font-family: monospace;
+    background-color: rgb(23, 85, 85);
 }
 
 .ark-pakages{
@@ -98,8 +91,71 @@ padding: 20px;
 }
 
 
-.pakages{
+.pakages-grid{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
+    gap: 10px 20px;
+}
+
+.pakages{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    
+}
+
+.gallery-image:hover{
+    transform: scale(1.1);
+}
+
+.flex-images{
+    flex-grow: 1;
+}
+
+.gallery-image{
+    width: 305px;
+    height: 400px;
+
+}
+
+.client-profile{
+    color: #989898;
+    font-size: 13px;
+}
+
+
+.testimonail-main{
+    background-color: #fbfbfb;
+    width: 70%;
+    margin: 0px 250px;
+    position: relative;
+}
+
+.testimonail-tittle{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.testimonails-menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px 20px;
+    margin: 0px 20px;
+}
+
+#client-img{
+    border-radius: 50%;
+    align-items: center;
+}
+
+.testimonail-data{
+    /* text-align: center; */
 }
