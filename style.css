@@ -38,7 +38,6 @@ body{
     right:15px;
     top:20px;
     padding-right: 30px;
-    /* margin-right: 70px; */
 }
 
 .header-list ul a{
@@ -77,6 +76,7 @@ a:hover{
     background-color: rgb(23, 85, 85);
 }
 
+
 .ark-pakages{
     background-color: #fbfbfb;
     width: 70%;
@@ -110,7 +110,7 @@ padding: 20px;
 }
 
 .gallery-image:hover{
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
 }
 
 .flex-images{
@@ -118,7 +118,7 @@ padding: 20px;
 }
 
 .gallery-image{
-    width: 304px;
+    width: 100%;
     height: 400px;
 
 }
@@ -157,11 +157,13 @@ padding: 20px;
 
 #client-img:hover{
   transform: scale(1.5);
+  cursor: pointer;
 }
 
 .testimonails-data h4:hover{
     transform: scaleY(1.5);
     color:#8AE9C1;
+    cursor: pointer;
 }
 
 .testimonails-data{
@@ -209,6 +211,7 @@ padding: 20px;
     padding: 10px;
     background-color: #25c4ec;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #footer-button input:hover{
@@ -244,6 +247,7 @@ ul{
     padding-left: 0px;
     text-transform: capitalize;
     line-height:1.5;
+    cursor: pointer;
 }
 
 .fa-brands{
@@ -254,11 +258,15 @@ ul{
 }
 
 .fa-brands:hover{
-    /* background-color: red; */
+    background-color: #90e39a;
     /* color: #fff; */
 }
 
 #copy-rights{
     text-align: center;
     color: #fff;
+}
+
+#header-text{
+    padding-left: 20px;
 }
