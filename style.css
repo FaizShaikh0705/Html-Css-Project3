@@ -68,7 +68,7 @@ a:hover{
 #header-button input{
     font-size:13px;
     padding: 12px;
-    background-color:rgb(60, 199, 199);
+    background-color:#25c4ec;
     color: #fff;
 }
 
@@ -110,7 +110,7 @@ padding: 20px;
 }
 
 .gallery-image:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .flex-images{
@@ -118,7 +118,7 @@ padding: 20px;
 }
 
 .gallery-image{
-    width: 305px;
+    width: 304px;
     height: 400px;
 
 }
@@ -189,7 +189,7 @@ padding: 20px;
     width: 70%;
     margin-left: 250px;
     margin-right: 250px;
-    background-color: #666B6A;
+    background-color:#424041;
     position: absolute;
     height: 60px;
 }
@@ -207,7 +207,7 @@ padding: 20px;
 
 #footer-button input{
     padding: 10px;
-    background-color: rgb(60, 199, 199);
+    background-color: #25c4ec;
     font-size: 16px;
 }
 
@@ -216,14 +216,49 @@ padding: 20px;
 }
 
 .footer-menu{
-background-color: #424041;
 display: flex;
 justify-content: space-between;
 width: 70%;
 margin-left: 250px;
 margin-right: 250px;
-padding-top: 70px;
-padding-left: 5px;
-padding-right: 5px;
+padding-top: 150px;
+height: 300px;
+color: #fff;
+}
 
+.footer-main{
+    background-color: #353535 
+}
+
+#font-1{
+    text-transform: capitalize;
+}
+
+.footer-tittle{
+    text-align:justify;
+}
+
+ul{
+    list-style-position: outside;
+    list-style: none;
+    padding-left: 0px;
+    text-transform: capitalize;
+    line-height:1.5;
+}
+
+.fa-brands{
+    background-color: #fff;
+    padding: 8px;
+    color: #000;
+    
+}
+
+.fa-brands:hover{
+    /* background-color: red; */
+    /* color: #fff; */
+}
+
+#copy-rights{
+    text-align: center;
+    color: #fff;
 }
